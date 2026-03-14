@@ -1,0 +1,14 @@
+---
+# MegaLinter Custom Flavor configuration
+# If you update it manually, run `npx mega-linter-runner --custom-flavor-setup` to propagate updates.
+label: MyCustomFlavor
+linters:
+  - ACTION_ACTIONLINT
+  - BASH_EXEC
+  - BASH_SHELLCHECK
+  - BASH_SHFMT
+  - JSON_ESLINT_PLUGIN_JSONC
+  - MARKDOWN_MARKDOWNLINT
+  - REPOSITORY_GITLEAKS
+  - REPOSITORY_SECRETLINT
+  - YAML_YAMLLINT
